@@ -1,0 +1,9 @@
+{
+	"name": "adventure-jilson",
+	"location": "southindia",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "e3298937-327a-4cad-aa23-e2ce02c4baee",
+		"tenantId": "6f2c2d9b-8a10-4e72-b1a9-f0be9b765e28"
+	}
+}
