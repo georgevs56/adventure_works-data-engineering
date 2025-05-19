@@ -1,0 +1,30 @@
+{
+	"$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+	"contentVersion": "1.0.0.0",
+	"parameters": {
+		"factoryName": {
+			"value": "adventure-jilson"
+		},
+		"Data_copy_accountKey": {
+			"value": ""
+		},
+		"copy_snk_accountKey": {
+			"value": ""
+		},
+		"Data_copy_properties_typeProperties_url": {
+			"value": "https://adventurejilson.dfs.core.windows.net/"
+		},
+		"Github_Data_Link_Service_properties_typeProperties_url": {
+			"value": "https://raw.githubusercontent.com/"
+		},
+		"copy_snk_properties_typeProperties_url": {
+			"value": "https://adventurejilson.dfs.core.windows.net/"
+		},
+		"containerUri": {
+			"value": ""
+		},
+		"containerSasToken": {
+			"value": ""
+		}
+	}
+}
