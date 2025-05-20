@@ -95,7 +95,7 @@
 				"typeProperties": {
 					"location": {
 						"type": "AzureBlobFSLocation",
-						"fileName": "git.json",
+						"fileName": "git2.json",
 						"fileSystem": "json"
 					}
 				},
@@ -115,9 +115,6 @@
 					"type": "LinkedServiceReference"
 				},
 				"parameters": {
-					"p_snk_folder": {
-						"type": "string"
-					},
 					"p_snk_file": {
 						"type": "string"
 					}
@@ -129,10 +126,6 @@
 						"type": "AzureBlobFSLocation",
 						"fileName": {
 							"value": "@dataset().p_snk_file",
-							"type": "Expression"
-						},
-						"folderPath": {
-							"value": "@dataset().p_snk_folder",
 							"type": "Expression"
 						},
 						"fileSystem": "bronze-extract"
@@ -269,10 +262,6 @@
 											"referenceName": "data_sink",
 											"type": "DatasetReference",
 											"parameters": {
-												"p_snk_folder": {
-													"value": "@item().p_snk_folder",
-													"type": "Expression"
-												},
 												"p_snk_file": {
 													"value": "@item().p_snk_file",
 													"type": "Expression"
